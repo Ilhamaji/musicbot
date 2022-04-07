@@ -3,10 +3,10 @@ module.exports = {
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "OTAwMDY4NTM0MDExNDU3NjE2.YW78JA.uYIwHd5AXyAa2H5lL4tfKBhEx98", //Discord Bot Token
+  SupportServer: "https://trakteer.id/bot-project/", //Support Server Link
+  Token: process.env.Token || "OTAwMDY4NTM0MDExNDU3NjE2.YW78JA.E5D3aLwL23lYX2a2MeBZ13_Uv_4", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "900068534011457616", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "WNl_1cpEWTrjzHBcbmq3_5IsB8nWhNnl", //Discord Client Secret
+  ClientSecret: process.env.Discord_ClientSecret || "FhL191GwceRkoOd8dkz13PXLQ7SzSuoj", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
