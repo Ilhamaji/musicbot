@@ -1,12 +1,12 @@
 module.exports = {
   Admins: ["UserID", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.Token || "OTAwMDY4NTM0MDExNDU3NjE2.YW78JA.uYIwHd5AXyAa2H5lL4tfKBhEx98", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "900068534011457616", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "WNl_1cpEWTrjzHBcbmq3_5IsB8nWhNnl", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -29,16 +29,16 @@ module.exports = {
    // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink/
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
-    id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "losingtime.dpaste.org", //- The host name or IP of the lavalink server.
-    port: 2124, // The port that lavalink is listening to. This must be a number!
-    pass: "SleepingOnTrains", //- The password of the lavalink server.
-    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
+    id: "Main",
+    host: "node03.marshalxp.xyz",
+    port: 443,
+    pass: "marshal",
+    secure: true,
   },
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "1d8b7bc8eec74e7a88a4996126960031", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "d7820f76bf2648cc9d99c5b008662d09", //Spotify Client Secret
   },
 };
